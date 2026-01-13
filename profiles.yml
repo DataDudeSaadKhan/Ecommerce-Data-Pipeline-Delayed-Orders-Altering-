@@ -1,0 +1,14 @@
+ecommerce:
+  outputs:
+    dev:
+      type: snowflake
+      account: BGUQBGY-RP01567
+      user: SAAD
+      password: Snowflake@2025
+      role: ACCOUNTADMIN
+      database: ecommerce_db
+      warehouse: COMPUTE_WH
+      schema: analysis
+      threads: 1
+      client_session_keep_alive: False
+  target: dev
