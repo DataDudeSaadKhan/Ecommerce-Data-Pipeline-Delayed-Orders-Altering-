@@ -1,8 +1,0 @@
-snowflake:
-  user: SAAD
-  password: Snowflake@2025
-  account: BGUQBGY-RP01567
-  warehouse: COMPUTE_WH
-  database: ecommerce_db
-  schema: analysis
-  role: ACCOUNTADMIN

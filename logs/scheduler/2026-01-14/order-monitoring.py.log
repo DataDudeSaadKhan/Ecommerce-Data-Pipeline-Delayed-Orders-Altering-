@@ -1,0 +1,386 @@
+[2026-01-14T23:48:19.563+0000] {processor.py:161} INFO - Started process (PID=29) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:48:19.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:48:19.632+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:48:19.621+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:48:19.706+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:48:19.743+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:48:19.710+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:48:19.747+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:48:20.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.577 seconds
+[2026-01-14T23:48:50.788+0000] {processor.py:161} INFO - Started process (PID=30) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:48:50.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:48:50.793+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:48:50.793+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:48:50.829+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:48:50.834+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:48:50.832+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:48:50.835+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:48:50.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.182 seconds
+[2026-01-14T23:49:32.011+0000] {processor.py:161} INFO - Started process (PID=29) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:49:32.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:49:32.044+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:49:32.041+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:49:32.103+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:49:32.118+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:49:32.107+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:49:32.121+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:49:32.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.255 seconds
+[2026-01-14T23:50:02.793+0000] {processor.py:161} INFO - Started process (PID=30) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:50:02.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:50:02.813+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:50:02.811+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:50:02.855+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:50:02.863+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:50:02.858+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:50:02.865+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:50:02.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.194 seconds
+[2026-01-14T23:50:33.330+0000] {processor.py:161} INFO - Started process (PID=31) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:50:33.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:50:33.334+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:50:33.333+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:50:33.374+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:50:33.384+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:50:33.378+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:50:33.386+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:50:33.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.146 seconds
+[2026-01-14T23:51:04.017+0000] {processor.py:161} INFO - Started process (PID=32) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:51:04.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:51:04.040+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:51:04.038+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:51:04.089+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:51:04.100+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:51:04.093+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:51:04.102+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:51:04.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.193 seconds
+[2026-01-14T23:51:34.540+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:51:34.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:51:34.548+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:51:34.548+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:51:34.575+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:51:34.582+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:51:34.580+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:51:34.583+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:51:34.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.083 seconds
+[2026-01-14T23:52:05.087+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:52:05.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:52:05.092+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:52:05.091+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:52:05.130+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:52:05.137+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:52:05.133+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:52:05.139+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:52:05.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.096 seconds
+[2026-01-14T23:52:36.106+0000] {processor.py:161} INFO - Started process (PID=35) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:52:36.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:52:36.111+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:52:36.111+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:52:36.131+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:52:36.135+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:52:36.134+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:52:36.136+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:52:36.166+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.068 seconds
+[2026-01-14T23:53:06.624+0000] {processor.py:161} INFO - Started process (PID=36) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:53:06.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:53:06.629+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:53:06.628+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:53:06.648+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:53:06.652+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:53:06.651+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:53:06.653+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:53:06.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.068 seconds
+[2026-01-14T23:53:37.274+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:53:37.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:53:37.278+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:53:37.278+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:53:37.301+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:53:37.308+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:53:37.306+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:53:37.308+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:53:37.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.076 seconds
+[2026-01-14T23:54:08.144+0000] {processor.py:161} INFO - Started process (PID=38) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:54:08.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:54:08.151+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:54:08.150+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:54:08.173+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:54:08.178+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:54:08.177+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:54:08.181+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:54:08.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.084 seconds
+[2026-01-14T23:54:38.793+0000] {processor.py:161} INFO - Started process (PID=39) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:54:38.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:54:38.801+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:54:38.800+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:54:38.827+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:54:38.831+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:54:38.830+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:54:38.833+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:54:38.864+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.085 seconds
+[2026-01-14T23:55:09.416+0000] {processor.py:161} INFO - Started process (PID=40) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:55:09.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:55:09.422+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:55:09.421+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:55:09.452+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:55:09.456+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:55:09.455+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:55:09.457+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:55:09.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.088 seconds
+[2026-01-14T23:55:39.983+0000] {processor.py:161} INFO - Started process (PID=41) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:55:39.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:55:39.994+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:55:39.994+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:55:40.023+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:55:40.027+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:55:40.025+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:55:40.027+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:55:40.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.091 seconds
+[2026-01-14T23:56:10.127+0000] {processor.py:161} INFO - Started process (PID=42) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:56:10.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:56:10.132+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:56:10.131+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:56:10.151+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:56:10.155+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:56:10.154+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:56:10.156+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:56:10.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.067 seconds
+[2026-01-14T23:56:41.045+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:56:41.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:56:41.051+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:56:41.050+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:56:41.077+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:56:41.081+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:56:41.080+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:56:41.082+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:56:41.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.075 seconds
+[2026-01-14T23:57:11.679+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:57:11.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:57:11.684+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:57:11.684+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:57:11.708+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:57:11.713+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:57:11.712+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:57:11.714+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:57:11.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.071 seconds
+[2026-01-14T23:57:42.736+0000] {processor.py:161} INFO - Started process (PID=45) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:57:42.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:57:42.741+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:57:42.740+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:57:42.765+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:57:42.770+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:57:42.769+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:57:42.772+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:57:42.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.083 seconds
+[2026-01-14T23:58:13.682+0000] {processor.py:161} INFO - Started process (PID=46) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:58:13.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:58:13.687+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:58:13.686+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:58:13.710+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:58:13.715+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:58:13.714+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/order-monitoring.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/order-monitoring.py", line 86
+    bash_command='source "D:\Software_Developement\Data_Engineering\Ecommerce_Project\.venv\Scripts\activate" && python "D:\Software_Developement\Data_Engineering\Ecommerce_Project\dags\utils\check_delayed_orders.py"'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 167-168: truncated \uXXXX escape
+[2026-01-14T23:58:13.716+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:58:13.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.074 seconds
+[2026-01-14T23:58:30.047+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:58:30.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:58:30.052+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:58:30.051+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:58:30.081+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/order-monitoring.py:81 SyntaxWarning: invalid escape sequence '\S'
+[2026-01-14T23:58:30.234+0000] {processor.py:840} INFO - DAG(s) 'order_monitoring_dag' retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:58:31.147+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:58:31.145+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:order_monitoring_dag
+[2026-01-14T23:58:31.167+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:58:31.167+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:order_monitoring_dag
+[2026-01-14T23:58:31.177+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:58:31.177+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:order_monitoring_dag
+[2026-01-14T23:58:31.178+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:58:31.178+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T23:58:31.220+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:58:31.219+0000] {dag.py:3118} INFO - Creating ORM DAG for order_monitoring_dag
+[2026-01-14T23:58:31.287+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:58:31.287+0000] {dag.py:3954} INFO - Setting next_dagrun for order_monitoring_dag to 2026-01-14 22:00:00+00:00, run_after=2026-01-14 23:00:00+00:00
+[2026-01-14T23:58:31.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 1.297 seconds
+[2026-01-14T23:59:18.979+0000] {processor.py:161} INFO - Started process (PID=29) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:59:18.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:59:19.012+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:59:19.010+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:59:19.153+0000] {processor.py:840} INFO - DAG(s) 'order_monitoring_dag' retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:59:19.291+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:59:19.291+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T23:59:19.398+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:59:19.397+0000] {dag.py:3954} INFO - Setting next_dagrun for order_monitoring_dag to 2026-01-14 22:00:00+00:00, run_after=2026-01-14 23:00:00+00:00
+[2026-01-14T23:59:19.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.525 seconds
+[2026-01-14T23:59:49.811+0000] {processor.py:161} INFO - Started process (PID=30) to work on /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:59:49.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/order-monitoring.py for tasks to queue
+[2026-01-14T23:59:49.826+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:59:49.825+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:59:49.893+0000] {processor.py:840} INFO - DAG(s) 'order_monitoring_dag' retrieved from /opt/airflow/dags/order-monitoring.py
+[2026-01-14T23:59:49.995+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:59:49.994+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T23:59:50.065+0000] {logging_mixin.py:188} INFO - [2026-01-14T23:59:50.064+0000] {dag.py:3954} INFO - Setting next_dagrun for order_monitoring_dag to 2026-01-14 22:00:00+00:00, run_after=2026-01-14 23:00:00+00:00
+[2026-01-14T23:59:50.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/order-monitoring.py took 0.321 seconds
