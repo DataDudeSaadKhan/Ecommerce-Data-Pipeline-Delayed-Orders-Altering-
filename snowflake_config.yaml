@@ -2,9 +2,9 @@ ecommerce:
   outputs:
     dev:
       type: snowflake
-      account: BGUQBGY-RP01567
+      account: BGUQBGY-RP01589
       user: SAAD
-      password: Snowflake@2025
+      password: Chintapakdumdum
       role: ACCOUNTADMIN
       database: ecommerce_db
       warehouse: COMPUTE_WH
