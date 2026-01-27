@@ -103,18 +103,10 @@ user:
 
 ---
 
-## ✅ Next Steps
+## ✅ Features to add
 - Add more dbt models to `dbt_ecommerce/`.
 - Extend DAGs with testing (`dbt test`) and documentation (`dbt docs generate`).
 - Deploy to production with a cloud Snowflake account.
-
----
-
-## 📜 License
-MIT License
-```
-
----
 
 ## ✅ Repo Structure on GitHub
 ```
@@ -129,6 +121,6 @@ airflow-dbt-snowflake-pipeline/
 │  └─ utils/check_delayed_orders.py
 └─ dbt_ecommerce/
 ```
- 
-
-Would you like me to also give you the **exact git commands** to initialize and push this project to GitHub (from your Windows machine)?
+## 📜 License
+MIT License
+```
